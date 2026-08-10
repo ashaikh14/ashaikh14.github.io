@@ -1,6 +1,20 @@
 /* ============================================================
    EDIT THIS FILE to update the website.
    After saving, refresh the page (and push to GitHub to publish).
+
+   Artwork files live in artwork/web/ with descriptive names:
+     01-cascade-waterfall.jpg
+     02-purple-bouquet.jpg
+     03-ocean-breakers.jpg
+     04-abstract-horizon.jpg
+     05-mountain-river.jpg
+     06-coastal-shoreline.jpg
+     07-winter-cabin.jpg
+     08-koi-fish.jpg
+     09-coral-reef.jpg
+     10-red-roses.jpg
+     11-autumn-reflection.jpg
+     12-golden-tide.jpg
    ============================================================ */
 
 window.SITE = {
@@ -311,7 +325,92 @@ window.SITE = {
       "body": "AmeriCorps — Gold Medal recipient."
     }
   ],
-  "artwork": [],
+  "artwork": [
+    {
+      "src": "artwork/web/01-cascade-waterfall.jpg",
+      "title": "01 — Cascade",
+      "alt": "Waterfall framed by blossoms and pink flowers",
+      "feature": true,
+      "tall": true
+    },
+    {
+      "src": "artwork/web/02-purple-bouquet.jpg",
+      "title": "02 — Bouquet",
+      "alt": "Purple floral bouquet in a blue vase",
+      "feature": false,
+      "tall": false
+    },
+    {
+      "src": "artwork/web/03-ocean-breakers.jpg",
+      "title": "03 — Breakers",
+      "alt": "Crashing waves on a sandy shore",
+      "feature": false,
+      "tall": false
+    },
+    {
+      "src": "artwork/web/04-abstract-horizon.jpg",
+      "title": "04 — Nightfall Abstract",
+      "alt": "Abstract blue and magenta horizon",
+      "feature": false,
+      "tall": false
+    },
+    {
+      "src": "artwork/web/05-mountain-river.jpg",
+      "title": "05 — Wild Current",
+      "alt": "River rapids before a forested mountain",
+      "feature": false,
+      "tall": false
+    },
+    {
+      "src": "artwork/web/06-coastal-shoreline.jpg",
+      "title": "06 — Shoreline",
+      "alt": "Coastline with blue ocean and yellow flowers",
+      "feature": false,
+      "tall": true
+    },
+    {
+      "src": "artwork/web/07-winter-cabin.jpg",
+      "title": "07 — Winter Light",
+      "alt": "Snowy cabin glowing at sunset",
+      "feature": false,
+      "tall": false
+    },
+    {
+      "src": "artwork/web/08-koi-fish.jpg",
+      "title": "08 — Koi",
+      "alt": "Koi fish swimming in deep teal water",
+      "feature": false,
+      "tall": false
+    },
+    {
+      "src": "artwork/web/09-coral-reef.jpg",
+      "title": "09 — Reef",
+      "alt": "Clownfish and coral with floating plastic debris",
+      "feature": false,
+      "tall": false
+    },
+    {
+      "src": "artwork/web/10-red-roses.jpg",
+      "title": "10 — Roses",
+      "alt": "Red roses against a bright blue sky",
+      "feature": false,
+      "tall": true
+    },
+    {
+      "src": "artwork/web/11-autumn-reflection.jpg",
+      "title": "11 — Autumn Reflection",
+      "alt": "Autumn tree reflected in still water",
+      "feature": false,
+      "tall": false
+    },
+    {
+      "src": "artwork/web/12-golden-tide.jpg",
+      "title": "12 — Golden Tide",
+      "alt": "Seascape at sunset with crashing waves",
+      "feature": false,
+      "tall": false
+    }
+  ],
   "nonprofits": [
     {
       "role": "01 — Founder & Executive Director",
@@ -374,6 +473,10 @@ window.SITE = {
     {
       "href": "#awards",
       "label": "Awards"
+    },
+    {
+      "href": "#artwork",
+      "label": "Artwork"
     },
     {
       "href": "#nonprofits",

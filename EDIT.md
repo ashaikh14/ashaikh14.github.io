@@ -9,21 +9,24 @@ All text and listings live in **`content.js`**.
 
 ## Artwork
 
-The gallery is currently empty. When you are ready, add items to `artwork` in `content.js` like:
+Gallery images live in `artwork/web/` with descriptive filenames:
 
-```js
-artwork: [
-  {
-    src: "artwork/web/your-image.jpeg",
-    title: "01 — Title",
-    alt: "Description",
-    feature: true,  // optional larger tile
-    tall: false     // optional tall tile
-  }
-]
-```
+| File | Painting |
+|------|----------|
+| `01-cascade-waterfall.jpg` | Waterfall with blossoms |
+| `02-purple-bouquet.jpg` | Purple flowers in blue vase |
+| `03-ocean-breakers.jpg` | Waves on sandy shore |
+| `04-abstract-horizon.jpg` | Abstract blue/magenta horizon |
+| `05-mountain-river.jpg` | River rapids & mountains |
+| `06-coastal-shoreline.jpg` | Coastline with yellow flowers |
+| `07-winter-cabin.jpg` | Snowy cabin at sunset |
+| `08-koi-fish.jpg` | Koi fish |
+| `09-coral-reef.jpg` | Coral reef & plastic |
+| `10-red-roses.jpg` | Red roses, blue sky |
+| `11-autumn-reflection.jpg` | Autumn tree reflection |
+| `12-golden-tide.jpg` | Ocean sunset |
 
-Then put the image file in `artwork/web/` and push.
+To add or change a piece, put the image in `artwork/web/` and update the `artwork` array in `content.js`.
 
 ## Files
 
