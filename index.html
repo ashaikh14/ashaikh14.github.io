@@ -261,8 +261,15 @@ body.day-mode .art-lightbox{background:rgba(247,245,241,.92);}
 @media(max-width:768px){
   nav{padding:1.2rem 1.5rem;}
   section{padding:4rem 1.25rem;}
-  .hero-bottom{flex-direction:column;align-items:flex-start;gap:1.5rem;padding:0 1.5rem 5.75rem;}
-  .scroll-hint{bottom:1.1rem;}
+  .hero-bottom{flex-direction:column;align-items:flex-start;gap:1.5rem;padding:0 1.5rem 0;}
+  .scroll-hint{
+    position:relative;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    margin:1.85rem auto 1.6rem;
+    width:max-content;
+  }
   .hero-cta-block{align-items:flex-start;}.hero-tagline{text-align:left;}
   .research-grid,.awards-grid,.mentorship-wrap{grid-template-columns:1fr;}
   .mentorship-wrap{gap:3rem;}
